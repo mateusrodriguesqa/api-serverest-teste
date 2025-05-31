@@ -4,26 +4,6 @@ Node.js
 Playwright
 JavaScript
 
-Estrutura de Pastas
-
-.
-├── config                 # Variáveis de ambiente (ex: BASE_URL, DEFAULT_USER)
-├── helpers                # Módulos auxiliares reutilizáveis
-├── payload                # Objetos de dados para requests (fixtures)
-├── tests
-│   └── api
-│       ├── products       # Testes de endpoints de produtos
-│       │   ├── positive   # Casos de sucesso
-│       │   └── negative   # Casos de erro/validação
-│       └── users          # Testes de endpoints de usuários
-│           ├── positive
-│           └── negative
-├── .gitignore
-├── package.json
-├── playwright.config.js  # Configuração do Playwright
-└── README.md
-
-
 Para executar todos os testes:
 npx playwright test
 
