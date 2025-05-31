@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", 
+    "paths": {
+      "#config/*": ["config/*"],
+      "#utils/*": ["utils/*"]
+    },
+    "module": "ESNext",
+    "moduleResolution": "Node"
+  },
+  "include": ["tests", "config", "utils"]
+}
