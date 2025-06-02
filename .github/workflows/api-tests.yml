@@ -27,5 +27,3 @@ jobs:
 
       - name: Executar testes
         run: npm test
-
-

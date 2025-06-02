@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npx playwright test --project=API"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
