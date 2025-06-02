@@ -1,5 +1,4 @@
-Tecnologias Utilizadas
-
+Tecnologias Utilizadas:
 Node.js
 Playwright
 JavaScript
