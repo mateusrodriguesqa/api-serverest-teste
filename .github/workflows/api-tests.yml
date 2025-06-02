@@ -28,9 +28,4 @@ jobs:
       - name: Executar testes
         run: npm test
 
-      - name: Upload do relatório HTML
-        uses: actions/upload-artifact@v2.3.1
 
-        with:
-          name: playwright-report
-          path: playwright-report/
